@@ -1,159 +1,51 @@
 ---
 layout: about
-title: About
-description: >
-  **Hydejack** is a Jekyll theme with JavaScript powers, combining the best of static sites and modern web apps.
-  It features a suite of JavaScript that makes the page feel like an app, without sacrificing backwards-compatibility,
-  page-load speed or SEO.
+title: 个人简介
+description: 
 menu: true
 order: 4
 ---
+## 教育背景
+2016年9月至2020年6月，江南大学电气工程及其自动化专业，本科学位。
 
-**Hydejack** is the complete package for professionals on the web.
-It features a blog suitable for both prose and technical documentation,
-a showcase for your projects, and a resume that is well-integrated with the design.
+2020年9月至今，江南大学控制科学与工程专业，博士在读。
 
-> Your presence on the web --- A [blog], a [portfolio] and a [resume].
-{:.lead}
+## 博士期间研究领域
+* 复杂环境下的多移动机器人路径规划及轨迹跟踪控制
+* 多机器人路径规划（MAPF）算法研究，包括CBS、ECBS、EECBS、LNS等
+* 终身多机器人自适应路径规划
+* 多优先级多机器人路径规划
+* 多移动机器人轨迹优化与跟踪控制
+* 故障情况下多机器人鲁棒路径重规划
 
-## Download
-There are two versions of **Hydejack**: The *free version* includes basic blogging functionality,
-as did previous versions of the theme.
-The *PRO version* includes additional features for professionals:
-A [portfolio], a [resume] layout and a [welcome] page to feature your favorite projects and posts.
+## 专业技能
+* OSQP(Operator Splitting Quadratic Program)。
+OSQP是一种用于求解凸二次规划问题的算法，应用于机器人轨迹优化，最优化计算等领域。
+* IPOPT(Interior Point Optimizer)。
+IPOPT是一个非线性规划（Nonlinear Programming, NLP）求解器，适用于求解大规模的非线性优化问题。该求解器应用于机器人轨迹优化，机器人运动控制，无人驾驶运动控制等领域。
+* MPC(Model Predictive Control，模型预测控制)。
+MPC是一种高效的先进控制策略，它通过集成未来预测信息来优化当前控制动作，特别适合于处理那些需要深入考虑未来预测、多目标优化和严格约束条件的复杂系统。在机器人技术和无人驾驶汽车领域，MPC以其卓越的性能提供了一种实现高级自动化控制的方法。
 
-This table details what is and isn't included in each respective version.
+* C++/C, Python, ROS, Ubuntu等
+* STM32
+* 电力电子技术
+* 运动控制，PID等
 
-|                                     | Free                                   | PRO                                          |
-|:------------------------------------|:--------------------------------------:|:--------------------------------------------:|
-| Blog                                | &#x2714;                               | &#x2714;                                     |
-| [Features][feat]                    | &#x2714;                               | &#x2714;                                     |
-| [Portfolio] Layout                  |                                        | &#x2714;                                     |
-| [Resume] Layout                     |                                        | &#x2714;                                     |
-| [Welcome] Layout                    |                                        | &#x2714;                                     |
-| [Newsletter Box][news]              |                                        | &#x2714;                                     |
-| [Custom Forms][forms]               |                                        | &#x2714;                                     |
-| No Hydejack Branding                |                                        | &#x2714;                                     |
-| License                             | [GPL-3.0][license]                     | [PRO]                                        |
-| Source                              | [GitHub][src]                          | Included                                     |
-| Support[^1]                         | No                                     | No                                           |
-| Price                               | Free                                   | $29                                          |
-|                                     | [**Download**][kit]                    | [**Buy Now - $29**][buy] [^2]                |
-{:.stretch-table}
+## 项目经历
+基于IOT技术的高效部署智能物流系统。该项目通过创新的模块化设计、云端控制和寿命预测技术，实现了物流系统的快速部署、设备运行的实时监控与维护，以及预测性维护以降低成本。系统采用标准化组件和接口，大幅缩短了设备部署和电气实施周期，并通过数字孪生技术和边缘计算框架，优化了调度效率和设备寿命。项目不仅在技术性能上优于同类产品，还取得了显著的经济和社会效益，包括生产效率、库存流转率和仓库利用率的显著提升，以及人员成本的降低。
 
-[^1]: You MAY open an issue on GitHub, but no response and/or fix is guaranteed.
-      You understand that using Jekyll requires technical know-how, and is NOT comparable to Wordpress in terms of usability.
-      Please use the free version to confirm that Hydejack works for you.
-      For more, see the [PRO] license.
+本人负责输送设备的控制器设计和程序编写，包括单箱直线输送、多箱直线输送、移载分流输送等设备的控制器硬件和软件设计。相关技术设计STM32，CAN通信，422通信，以太网通信等。
 
-## Features
-Both versions include these features:
+## 本科奖项
+* 2019年博士杯电子设计一等奖
+* 2018年博士杯电子设计二等奖
+* 江苏省TI杯电子设计二等奖
+* 2019年全国电子设计省二等奖
+* 蓝桥杯江苏省单片机二等奖
+* 校级大创项目评定为优秀
+* 中科芯杯大学生电子设计创新创业邀请赛优秀奖
+* 南京大学万人计划学术冬令营参与者，参与基于ARM芯片的人脸识别项目
 
-* Full in-app page loading, powered by [hy-push-state]{:.external}
-* A customizable sidebar that turns into a drawer menu on mobile, powered by [hy-drawer]{:.external}
-* Advanced FLIP animations, inspired by Material Design
-* Good [Google PageSpeed Score][gpss][^4]
-* Higher *perceived speed* thanks to content pre-fetching
-* [Syntax highlighting](#syntax-highlighting), powered by [Rouge]
-* [LaTeX math blocks](#latex-math-blocks), powered by [KaTeX]
-* Change the wording of built-in strings and possibly translate in other languages
-* Support for categories and tags
-* Built-in icons for many social networks
-* Simple and semantic HTML — can be viewed even with text-based browsers
-* Author section below each article and support for multiple authors
-* Progressive enhancement — sacrifice features, not content
-* Google Analytics and Google Fonts support
-* Disqus comments
-* Print layout — Used to render Hydejack's [PDF documentation][pdf]
-* Blog layout via `jekyll-paginate` (optional)
-* SEO meta tags via `jekyll-seo-tag` (optional)
-* Github avatars via `jekyll-avatar` (optional)
-* Gist support via `jekyll-gist` (optional)
+## 本科毕业设计
+基于STM32的搬运机器人，涉及驱动制作、控制屏幕、按键、舵机、电机等，运用SPI通信、PID控制、串口通信等技术。
 
-[^4]: Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins.  
-
-### Syntax Highlighting
-Syntax highlighting powered by [Rouge].
-
-~~~ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-~~~
-
-### LaTeX Math Blocks
-Write formulas in familiar LaTeX syntax. Powered by [KaTeX].
-
-$$
-\begin{aligned}
-  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
-                 \vdots          & \ddots & \vdots         \\
-                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}
-$$
-
-### Newsletter Subscription Box*
-The *PRO version* has built-in support for [Tinyletter] subscription boxes.
-
-If you are using a different newsletter service, like MailChimp,
-you can build a custom newsletter subscription box using [custom forms][forms].
-
-## Versions
-### Free Version
-The *free version* features the design and tech of **Hydejack**, but only supports basic blogging.
-
-[**Download**][kit]
-
-### PRO Version
-The *PRO version* aims to be the complete package for professionals on the web.
-It includes layouts for your [portfolio],
-your [resume] (with support for [JSON Resume](https://jsonresume.org/)),
-a [welcome] page to introduce yourself to visitors,
-built-in support for [Tinyletter], and from element styles so you can build arbitrary contact forms.
-
-[**Buy Now - $29**][buy] [^2]
-
-[^2]: Transactions secured by [Stripe](https://stripe.com). Downloads handled by [Simple Goods](https://simplegoods.co/).  
-
-[blog]: https://qwtel.com/hydejack/blog/
-[portfolio]: https://qwtel.com/hydejack/variations/
-[resume]: https://qwtel.com/hydejack/resume/
-[download]: https://qwtel.com/download/
-[welcome]: https://qwtel.com/hydejack/
-[forms]: https://qwtel.com/hydejack/forms-by-example/
-
-[feat]: #features
-[news]: #newsletter-subscription-box
-[syntax]: #syntax-highlighting
-[latex]: #latex-math-blocks
-
-[license]: LICENSE.md
-[pro]: licenses/PRO.md
-[docs]: docs/7.5.0/index.md
-
-[kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v7.5.0.zip
-[src]: https://github.com/qwtel/hydejack
-[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
-[buy]: https://app.simplegoods.co/i/AQTTVBOE
-
-[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fqwtel.com%2Fhydejack%2F
-[wiki]: https://github.com/qwtel/hydejack/blob/master/docs/7.5.0/index.md
-[pdf]: https://github.com/qwtel/hydejack/releases/download/v7.5.0/Documentation._.Hydejack.pdf
-[hy-push-state]: https://qwtel.com/hy-push-state/
-[hy-drawer]: https://qwtel.com/hy-drawer/
-[rouge]: http://rouge.jneen.net
-[katex]: https://khan.github.io/KaTeX/
-[tinyletter]: https://tinyletter.com/
-
-*[FLIP]: First-Last-Invert-Play. A coding technique to achieve performant page transition animations.
