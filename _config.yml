@@ -26,8 +26,7 @@ title:                 华英杰
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
-  博士期间研究内容。
+description:          研究内容：复杂环境下的多移动机器人路径规划及轨迹跟踪控制、多机器人路径规划（MAPF）算法研究、终身多机器人自适应路径规划、多优先级多机器人路径规划、多移动机器人轨迹优化与跟踪控制、故障情况下多机器人鲁棒路径重规划
 
 # A shorter description for the sidebar.
 tagline:               []
