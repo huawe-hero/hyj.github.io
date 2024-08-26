@@ -5,7 +5,7 @@ description: >
   这篇文章介绍了一种名为LEB-LNS（Lifelong Evaluation Based Large Neighborhood Search）的算法，旨在解决终身自适应多智能体路径规划问题（LAMP-MAPF）。LAMP-MAPF问题要求智能体在变化的环境中动态接收和完成不同优先级的任务，并在有限的计算时间内找到路径以避免碰撞。
 tags: [MAPF]
 ---
-
+# Adaptive Lifelong Multi-Agent Path Finding With Multiple Priorities（自适应终身多优先级多智能体路径规划）
 ## 针对问题
 这篇文章针对的是自适应终身多智能体路径规划问题（LAMP-MAPF），它在智能体路径规划领域中具有挑战性，因为它涉及到以下几个关键方面：
 
