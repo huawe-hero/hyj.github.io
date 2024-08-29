@@ -42,17 +42,22 @@ tags: [MAPF]
 ### 仿真验证
 在IEEE ROBOTICS AND AUTOMATION LETTERS上发表的论文《Adaptive Lifelong Multi-Agent Path Finding With Multiple Priorities》中，我们展示了仿真研究的成果。该研究中，智能体根据优先级（蓝色最高，黄色次之，红色最低）进行路径规划。每个智能体都被赋予了一系列任务，这些任务由一系列终点组成，智能体需要依次到达这些终点。在到达每个终点后，智能体会随机停留一段预定时间，然后继续前往下一个终点。一旦当前任务完成，智能体会被分配新的使命，确保其持续参与到动态的任务分配和执行过程中。
 
-<iframe  src="//player.bilibili.com/player.html?isOutside=true&aid=113042952028776&bvid=BV1kKs5eaEk2&cid=25631461032&p=1"  scrolling="no"  border="0"  frameborder="no"  framespacing="0" allowfullscreen="true" width="80%"  height="500px"> </iframe>
+<iframe  src="//player.bilibili.com/player.html?isOutside=true&aid=113042952028776&bvid=BV1kKs5eaEk2&cid=25631461032&p=1"  scrolling="no"  border="0"  frameborder="no"  framespacing="0" allowfullscreen="true" width="100%"  height="500px"> </iframe>
+
 ### 实验验证
+在本次实验中，我们部署了四台搭载Jetson Nano和ROS（机器人操作系统）的机器人
+
 * 终身路径规划实验
+
 机器人根据颜色旗帜的优先级（蓝色最高，黄色次之，红色最低）来规划它们的路径。每当机器人成功到达一个终点，它们就会被赋予新的任务，确保了任务分配的连续性和动态性。
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042968872164&bvid=BV1F3s5eFEYL&cid=25631589722&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="480"> </iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042968872164&bvid=BV1F3s5eFEYL&cid=25631589722&p=1" scrolling="no"  border="0"  frameborder="no"  framespacing="0" allowfullscreen="true" width="100%"  height="500px"> </iframe>
 
 * 多优先级路径规划实验
+
 优先级红色旗帜>黄色旗帜>蓝色旗帜。
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042985648816&bvid=BV1cus5ehEyu&cid=25631657301&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="480"> </iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042985648816&bvid=BV1cus5ehEyu&cid=25631657301&p=1" scrolling="no"  border="0"  frameborder="no"  framespacing="0" allowfullscreen="true" width="100%"  height="500px"> </iframe>
 优先级蓝色旗帜>黄色旗帜>红色旗帜。
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042985648614&bvid=BV1cus5ehEBo&cid=25631721773&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="480"> </iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042985648614&bvid=BV1cus5ehEBo&cid=25631721773&p=1" scrolling="no"  border="0"  frameborder="no"  framespacing="0" allowfullscreen="true" width="100%"  height="500px"> </iframe>
 ## 论文发表
 2024年6月发表于IEEE ROBOTICS AND AUTOMATION LETTERS（二区 IF5.5）。
 
