@@ -40,24 +40,19 @@ tags: [MAPF]
 这篇文章通过一系列的仿真和实验验证了LEB-LNS算法在解决终身自适应多智能体路径规划问题（LAMP-MAPF）方面的有效性。
 
 ### 仿真验证
-仿真在两种不同的地图上进行，一种是填充仓库（fulfillment warehouse）地图，另一种是分拣中心（sorting center）地图。在仓库履行地图上模拟了600个智能体，在分拣中心地图上模拟了400个智能体。
-![fulfillment warehouse](/pictures/kiva.jpg "fulfillment warehouse")
-![sorting center](/pictures/sorting.jpg "sorting center")
-    
+在IEEE ROBOTICS AND AUTOMATION LETTERS上发表的论文《Adaptive Lifelong Multi-Agent Path Finding With Multiple Priorities》中，我们展示了仿真研究的成果。该研究中，智能体根据优先级（蓝色最高，黄色次之，红色最低）进行路径规划。每个智能体都被赋予了一系列任务，这些任务由一系列终点组成，智能体需要依次到达这些终点。在到达每个终点后，智能体会随机停留一段预定时间，然后继续前往下一个终点。一旦当前任务完成，智能体会被分配新的使命，确保其持续参与到动态的任务分配和执行过程中。
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042952028776&bvid=BV1kKs5eaEk2&cid=25631461032&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="480"> </iframe>
+
 ### 实验验证
+* 终身路径规划实验
+机器人根据颜色旗帜的优先级（蓝色最高，黄色次之，红色最低）来规划它们的路径。每当机器人成功到达一个终点，它们就会被赋予新的任务，确保了任务分配的连续性和动态性。
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042968872164&bvid=BV1F3s5eFEYL&cid=25631589722&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="480"> </iframe>
 
-* 实验场景：使用3个机器人在一个5米×8米的室内环境中进行实验，机器人由控制中心的PC进行管理。
-
-* 硬件配置：PC配备了Intel i5-8265 U处理器和16 GB RAM，每个机器人由Jetson Nano控制。
-
-* 软件环境：实验使用了Ubuntu操作系统和机器人操作系统（ROS）。
-
-* 地图创建：使用Gmapping算法创建了实验环境的地图。
-
-* 实验内容：
-      优先级实验：验证算法在处理不同优先级智能体时的能力，观察高优先级智能体对低优先级智能体路径规划的影响。
-      终身实验：模拟智能体完成任务后接收新任务的情况，验证算法在连续任务分配和路径规划中的性能。
-      
+* 多优先级路径规划实验
+优先级红色旗帜>黄色旗帜>蓝色旗帜。
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042985648816&bvid=BV1cus5ehEyu&cid=25631657301&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="480"> </iframe>
+优先级蓝色旗帜>黄色旗帜>红色旗帜。
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042985648614&bvid=BV1cus5ehEBo&cid=25631721773&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="480"> </iframe>
 ## 论文发表
 2024年6月发表于IEEE ROBOTICS AND AUTOMATION LETTERS（二区 IF5.5）。
 
