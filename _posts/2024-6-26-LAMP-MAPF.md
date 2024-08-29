@@ -41,8 +41,8 @@ tags: [MAPF]
 
 ### 仿真验证
 在IEEE ROBOTICS AND AUTOMATION LETTERS上发表的论文《Adaptive Lifelong Multi-Agent Path Finding With Multiple Priorities》中，我们展示了仿真研究的成果。该研究中，智能体根据优先级（蓝色最高，黄色次之，红色最低）进行路径规划。每个智能体都被赋予了一系列任务，这些任务由一系列终点组成，智能体需要依次到达这些终点。在到达每个终点后，智能体会随机停留一段预定时间，然后继续前往下一个终点。一旦当前任务完成，智能体会被分配新的使命，确保其持续参与到动态的任务分配和执行过程中。
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113042952028776&bvid=BV1kKs5eaEk2&cid=25631461032&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="640" height="480"> </iframe>
 
+<iframe  src="//player.bilibili.com/player.html?isOutside=true&aid=113042952028776&bvid=BV1kKs5eaEk2&cid=25631461032&p=1"  scrolling="no"  border="0"  frameborder="no"  framespacing="0" allowfullscreen="true" width="100%"  height="500px"> </iframe>
 ### 实验验证
 * 终身路径规划实验
 机器人根据颜色旗帜的优先级（蓝色最高，黄色次之，红色最低）来规划它们的路径。每当机器人成功到达一个终点，它们就会被赋予新的任务，确保了任务分配的连续性和动态性。
